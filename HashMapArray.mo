@@ -11,7 +11,7 @@ module {
     Array.init<?(A, B)>(size + maxSpread, null);
   };
 
-  public class HashArray<A, B>(
+  public class HashMapArray<A, B>(
     size : Nat,
     arr : [var ?(A, B)],
     hash : (A) -> Nat32,
